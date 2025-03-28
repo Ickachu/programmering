@@ -1,0 +1,27 @@
+Importera modul
+Slumpa fram ett tal mellan 1-100
+Initiera no_of_guesses med värde 1
+Initiera max_guesses med värde 10
+Initiera end_msg med värde "Spelet är slut."
+Skriv ut rubrik och instruktioner
+Skriv in ett värde för guess_num
+Gör medan guess_num inte är lika med rand_num
+    Om guess_num är utanför spannet 1-100
+        Skriv ut att talet är ogiltigt och att användaren ska gissa mellan 1-100
+    Annars om guess_num är större än det slumpade talet med 1-3
+        Skriv ut att talet är för stort men nära det slumpade talet, och att användaren ska gissa på ett mindre tal
+    Annars om guess_num är större än det slumpade talet med >=4
+        Skriv ut att talet är för stort och att användaren ska gissa på ett mindre tal
+    Annars om guess_num är mindre än slumpade talet med 1-3
+        Skriv ut att talet är för litet men nära det slumpade talet, och att användaren ska gissa på ett större tal
+    Annars
+        Skriv ut att talet är för litet och att användaren ska gissa på ett större tal
+    Skriv in ett värde för guess_num
+    Öka värde på no_of_guesses med 1
+    Om no_of_guesses är lika med max_guesses
+        Bryt loopen
+Om guess_num är lika med rand_num
+    Skriv ut gratulationer och no_of_guesses
+Annars
+    Skriv ut att användaren gissade fel och har använt max_guesses
+Skriv ut end_msg  

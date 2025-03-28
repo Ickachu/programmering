@@ -1,0 +1,24 @@
+Skriv ut Välkommen till Buss-simulatorn
+Presentera menyval som while-loop
+    Lägg till passagerare
+        Anropa funktion för att lägga till passagerare
+    Skriv ut passagerare
+        Anropa funktion för att skriva ut passagerare
+    Räkna ut total ålder
+        Anropa funktion för att räkna ut total ålder
+    Avsluta program
+        Bryt
+
+Skapa en funktion för att lägga till en passagerare
+    Öka antal med 1
+    Spara ålder på ny passagerare 
+    Be om ålder via input
+
+Skapa funktion för att skriva ut listan passagerare
+    Skriv ut listan passagerare
+
+Skapa funktion för att räkna ut total ålder
+    Skapa variabel för total ålder med värde 0
+    Loopa över passagerarlistan
+        Addera varje värde i listan passagerare till variabeln total ålder
+    Skriv ut total ålder
