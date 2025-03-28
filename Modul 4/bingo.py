@@ -4,7 +4,7 @@ from random import *
 # generera tom lista av lotterinummer
 lottery_nums = []
 
-# poäng för rätta bingonummer
+# poäng för rätta bingonummer 
 points = 0
 
 # loop för att generera 10 slumpade, unika nummer
